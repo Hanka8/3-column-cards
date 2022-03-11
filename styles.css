@@ -1,0 +1,126 @@
+body {
+  color: white;
+}
+
+p {
+  line-height: 1.8;
+  font-family: 'Lexend Deca', sans-serif;
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.cards {
+  width: 75%;
+}
+
+/* SEDANS */
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.sedanButton {
+	background-color:#ffffff;
+	border-radius:32px;
+	border:1px solid hsl(31, 77%, 52%);
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(31, 77%, 52%);
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 45px;
+	text-decoration:none;
+}
+.sedanButton:hover {
+  color: white;
+	background-color: hsl(31, 77%, 52%);
+  border: 2px solid white;
+}
+.sedanButton:active {
+  color: white;
+	background-color: hsl(31, 77%, 52%);
+  border: 2px solid white;
+}
+
+/* SUVS */
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.suvsButton {
+	background-color:#ffffff;
+	border-radius:32px;
+	border:1px solid hsl(184, 100%, 22%);
+	display:inline-block;
+	cursor:pointer;
+	color: hsl(184, 100%, 22%);
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 45px;
+	text-decoration:none;
+}
+.suvsButton:hover {
+  color: white;
+	background-color: hsl(184, 100%, 22%);
+  border: 2px solid white;
+}
+.suvsButton:active {
+  color: white;
+	background-color: hsl(184, 100%, 22%);
+  border: 2px solid white;
+}
+
+/* LUXURY */
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.luxuryButton {
+	background-color:#ffffff;
+	border-radius:32px;
+	border:1px solid hsl(179, 100%, 13%);
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(179, 100%, 13%);
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 45px;
+	text-decoration:none;
+}
+.luxuryButton:hover {
+  color: white;
+	background-color: hsl(179, 100%, 13%);
+  border: 2px solid white;
+}
+.luxuryButton:active {
+  color: white;
+	background-color: hsl(179, 100%, 13%);
+  border: 2px solid white;
+}
+
+/* MOBILE  */
+
+@media (max-width: 768px) {
+  .sedans {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 0;
+  }
+  .luxury {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+  }
+  p {
+    padding-right: 80%;
+  }
+}
